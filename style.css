@@ -1,0 +1,93 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color:rgb(78, 192, 218);
+}
+
+
+.round {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 10px solid rgb(255, 255, 255); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.main-header {
+    width: 500px;
+    background: url(/image/imageb1.jpg) no-repeat;
+    background-position: top left; /* Положение фона */
+    background-size: 70%;
+}
+
+.nave {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+.container {
+    margin-left: 200px;
+}
+  
+
+.sidebar {
+width: 300px;
+background-color: rgb(78, 192, 218);
+color: aliceblue;
+padding-left: 30px;
+padding-left: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top: 0;
+}
+
+.main {
+    width: 300px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    padding-left: 30px;
+    
+    
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: stretch;
+    padding: 0 50px;
+}
+.text 
+{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .code {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--brand-1);
+    width: 100%;
+}
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: aqua;
+    
+    
+}
+.footerpart {
+    margin-left: 150px;
+    color: black;
+    text-decoration: none;
+    
+}
